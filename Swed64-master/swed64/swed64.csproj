@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <Company>swed software</Company>
+    <Product>swed64</Product>
+    <Authors>Swedz</Authors>
+    <Description>Simple addon for the ReadProcessMemory and WriteProcessMemory functions :)
+Check out swedz c# on youtube for tutorial</Description>
+    <Copyright>Give credits to the youtube channel swedz c#</Copyright>
+    <PackageProjectUrl>https://github.com/Massivetwat/swed64</PackageProjectUrl>
+    <PackageIcon>New Project (14).png</PackageIcon>
+    <RepositoryUrl>https://github.com/Massivetwat/swed64</RepositoryUrl>
+    <PackageTags>swed</PackageTags>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    
+	  <PackageLicenseFile>D:\projects\swed64\swed64\LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="C:\Users\kalli\Downloads\New Project (14).png">
+	
+		
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
